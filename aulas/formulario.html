@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h3>Usuário</h3>
+    <form action="">
+        Login: <br>
+        <input type="text" name="usuário"> <br>
+
+        Senha <br>
+        <input type="password" name="senha"> <br> <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <form action="cadastro">
+        <h2>Cadastre-se</h2>
+        Login: <br>
+        <input type="text" name="Usuario"> <br>
+
+        <h4>Sexo</h4>
+        <input type="radio" name="sexo" value="M">Masculino
+        <input type="radio" name="sexo" value="F">Feminino <br>
+
+        <h4>Interesses</h4>
+
+        <input type="checkbox" name="interesses"> Futebol <br>
+        <input type="checkbox" name="interesses"> Cursos <br>
+        <input type="checkbox" name="interesses"> Moda <br>
+
+        <h4>Estado</h4>
+        <select name="estado" id="estado">
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="mg">MG</option>
+            <option value="rs">RS</option>
+        </select> <br>
+        <h4>Observações</h4>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>
