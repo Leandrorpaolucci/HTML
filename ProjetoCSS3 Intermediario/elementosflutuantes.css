@@ -1,0 +1,37 @@
+#principal {
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha se necessário */
+    gap: 20px; /* substitui as margens entre blocos */
+    border: 1px solid red;
+    background: greenyellow;
+    padding: 20px;
+}
+
+/* Conteúdo padrão */
+.conteudo,
+.conteudo1 {
+    width: 150px;
+    height: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos individuais */
+.conteudo {
+    background-color: aquamarine;
+}
+
+.conteudo1 {
+    background-color: rgb(230, 100, 212);
+}
+
+/* Se quiser usar conteudo-zero também */
+.conteudo-zero {
+    background: red;
+    border: 1px solid gray;
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}

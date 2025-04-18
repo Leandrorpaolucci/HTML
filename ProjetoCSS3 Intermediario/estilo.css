@@ -1,17 +1,28 @@
-.conteudo {
-    border: 1px solid orange;
-    
-  /*padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;*/
-    padding-left: 20px;
+.exemplo1 {
+  border: 1px solid red;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 150px;
+  margin: 0px 0px 0px 0px;
 
-    /*padding: 20px 15px 10px 5px  ;*/
+}
 
-    /*padding: 20px 5px;*/
-    padding: 20px;
-    
-    margin: 20px 15px 10px 5px;
+.exemplo2 {
+  border: 1px solid blue;
+  padding: 20px 20px 20px 20px;
+  /* Topo | Direita | Baixo | Esquerda*/
+  width: 150px;
+  margin: 10px 10px 10px 10px;
+}
 
-    width: 150px;
+.exemplo3 {
+  border: 1px solid orangered;
+  width: 150px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
